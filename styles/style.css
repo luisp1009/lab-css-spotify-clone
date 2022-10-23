@@ -8,26 +8,27 @@ White: #FFF
 */
 
 nav {
-display: flex;
-justify-content: space-between;
-flex-direction: row;
-align-content: flex-end;
-margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-content: flex-end;
+  margin-top: 10px;
 }
 
 a {
   text-decoration: none;
   color: black;
-  margin-right: 20px;
+  margin-right: 30px;
+  font-size: 20px;
+  line-height: 40px;
   
 }
 
 .logo {
-  height: 30px;
+  height: 40px;
   margin-bottom: 10px;
-  margin-left: 10px;
+  margin-left: 30px;
 }
-
 
 .landing {
   height: 75vh;
@@ -41,14 +42,107 @@ a {
   color: white;
 }
 
-p {
+.top-text {
   font-size: 20px;
   width: 45vw;
   text-align: center;
-
+  letter-spacing: 1px;
 }
 
 h1 {
   font-size: 50px;
   margin-top: 300px;
+  text-align: center;
 }
+
+h2 {
+  
+  padding-bottom: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 3.1px;
+  border-bottom-color: green;
+  width: fit-content;
+  margin: 50px auto;
+
+}
+
+.section3 p {
+  color: black;
+}
+
+.section3content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
+  
+}
+
+.block img {
+  width: 80px;
+}
+
+h3 {
+  color: green;
+  text-align: center;
+  font-size: 25px;
+}
+
+.article3 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width:25vw;
+}
+.section3img {
+  display: flex;
+  justify-content: space-around;
+ align-self: center;
+}
+
+
+.greenPart {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  background-color:#00B172;
+  margin: 4rem 1rem 0;
+
+}
+
+.greenPartTitle { 
+  padding-bottom: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2.5px;
+  border-bottom-color: white;
+  width: fit-content;
+  font-size: 1.5rem;
+
+}
+
+.logoIcon {
+  height: 9vh;
+  margin-right: 6rem;
+  margin-top: 12rem;
+}
+
+.app {
+  height: 45vh;
+  padding-top: 2rem;
+  margin-right: 1rem;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  width: 30vw;
+
+}
+.imagesGreenPart {
+  display: flex;
